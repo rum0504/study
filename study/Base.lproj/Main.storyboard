@@ -26,27 +26,27 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hs1-je-nNx">
                                 <rect key="frame" x="134" y="582" width="147" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal">
-                                    <string key="title">記録を見る
-見る</string>
+                                <color key="backgroundColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="記録を見る">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="miru" destination="BYZ-38-t0r" eventType="touchUpInside" id="1xN-ig-8G9"/>
-                                    <segue destination="P7D-9Z-9Dt" kind="show" id="mvw-Es-LPt"/>
+                                    <segue destination="P7D-9Z-9Dt" kind="show" id="iGB-mj-Vr6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWp-cA-mHa">
-                                <rect key="frame" x="134" y="441" width="147" height="96"/>
+                                <rect key="frame" x="134" y="446" width="147" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="backgroundColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="記録する">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="kiroku" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yz7-Zr-Fx1"/>
-                                    <segue destination="Fge-lg-BaG" kind="show" id="WjK-81-KhW"/>
+                                    <segue destination="Fge-lg-BaG" kind="show" id="zOt-wM-tQ7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -122,8 +122,17 @@
                         <viewLayoutGuide key="safeArea" id="QGX-UI-NPi"/>
                     </view>
                     <navigationItem key="navigationItem" id="b8R-mG-j6x">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Kb2-gv-Hzl"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Kb2-gv-Hzl">
+                            <connections>
+                                <action selector="saveMemo" destination="Fge-lg-BaG" id="FmC-ME-mJR"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="contentTextView" destination="BL0-hd-oeC" id="ee9-Gh-teI"/>
+                        <outlet property="jikanLabel" destination="bJF-9i-gss" id="Qm7-fY-hoE"/>
+                        <outlet property="nichijiLabel" destination="xQP-fq-36F" id="93Z-zH-Lhv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1aa-RQ-wuD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
