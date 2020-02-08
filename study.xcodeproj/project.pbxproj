@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88B58A3623EE9A1B00F09029 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B58A3423EE9A1A00F09029 /* CustomCell.swift */; };
+		88B58A3723EE9A1B00F09029 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B58A3523EE9A1A00F09029 /* CustomCell.xib */; };
 		88EA979323C9ADD6004D13F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA979223C9ADD6004D13F5 /* AppDelegate.swift */; };
 		88EA979523C9ADD6004D13F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA979423C9ADD6004D13F5 /* SceneDelegate.swift */; };
 		88EA979723C9ADD6004D13F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA979623C9ADD6004D13F5 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88B58A3423EE9A1A00F09029 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		88B58A3523EE9A1A00F09029 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		88EA978F23C9ADD6004D13F5 /* study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EA979223C9ADD6004D13F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EA979423C9ADD6004D13F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				88EA97A023C9ADD9004D13F5 /* Info.plist */,
 				88EA97C223C9B3CC004D13F5 /* CommentViewController.swift */,
 				88EA97C423C9B3FB004D13F5 /* ShowViewController.swift */,
+				88B58A3423EE9A1A00F09029 /* CustomCell.swift */,
+				88B58A3523EE9A1A00F09029 /* CustomCell.xib */,
 			);
 			path = study;
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			files = (
 				88EA979F23C9ADD9004D13F5 /* LaunchScreen.storyboard in Resources */,
 				88EA979C23C9ADD9004D13F5 /* Assets.xcassets in Resources */,
+				88B58A3723EE9A1B00F09029 /* CustomCell.xib in Resources */,
 				88EA979A23C9ADD6004D13F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 				88EA97C323C9B3CC004D13F5 /* CommentViewController.swift in Sources */,
 				88EA979723C9ADD6004D13F5 /* ViewController.swift in Sources */,
 				88EA979323C9ADD6004D13F5 /* AppDelegate.swift in Sources */,
+				88B58A3623EE9A1B00F09029 /* CustomCell.swift in Sources */,
 				88EA979523C9ADD6004D13F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,18 +10,65 @@ import UIKit
 
 class ShowViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    //storyboardで扱うTableViewを宣言
-    @IBOutlet var table: UITableView!
+    
+    @IBOutlet var tableView: UITableView!
+    
+    var nichijiText: String!
+    var jikanText: String!
+    var contentText: String!
+    
+    //倉庫にアクセスする
+    let saveDate: UserDefaults = UserDefaults.standard
+    
+    //日時を表示させる為の配列
+    var nichijiLabelArray = [String]()
+    
+    //時間を表示させる為の配列
+    var jikanLabelArray = [String]()
+    
+    //コメントを表示させる為の配列
+    var contentTextViewArray = [String]()
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //TableViewのデータソースメソッドはViewControllerクラスに描くよという設定
-        table.dataSource = self
+        self.tableView.dataSource = self
         
         //TableViewのdelegateメソッドはViewControllerメソッドに書くよという設定
-        table.delegate = self
+        self.tableView.delegate = self
+        
+        //nichijiTextを取り出す
+        nichijiText = saveDate.object(forKey: "title") as? String
+        //jikanTextを取り出す
+        jikanText = saveDate.object(forKey: "title2") as? String
+        //contentTextを取り出す
+        contentText = saveDate.object(forKey: "content") as? String
+        
+        if saveDate.object(forKey: "hinichi") == nil {
+        }else {
+            nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
+                jikanLabelArray = saveDate.object(forKey: "time") as! [String]
+                contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
+            
+            
+        }
+        
+        nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
+        jikanLabelArray = saveDate.object(forKey: "time") as! [String]
+        contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
+    
+        nichijiLabelArray.append(nichijiText)
+        jikanLabelArray.append(jikanText)
+        contentTextViewArray.append(contentText)
+        
+        saveDate.set(nichijiLabelArray, forKey: "hinichi")
+        saveDate.set(jikanLabelArray, forKey: "time")
+        saveDate.set(contentTextViewArray, forKey: "contens")
+        
+        print(nichijiLabelArray,jikanLabelArray)
+        
         
         
 
@@ -30,14 +77,15 @@ class ShowViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     //セルの数を設定
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return nichijiLabelArray.count
     }
     
     //ID付きのセルを取得してセル付属のテキストラベルに「テスト」と表示させる
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
-        
-        cell?.textLabel?.text = "テスト"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? CustomCell
+        print(nichijiLabelArray[indexPath.row])
+        cell?.nichijiLabel.text = nichijiLabelArray[indexPath.row]
+        cell?.jikanLabel.text = jikanLabelArray[indexPath.row]
         
         return cell!
     }
