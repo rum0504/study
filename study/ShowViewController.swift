@@ -51,13 +51,7 @@ class ShowViewController: UIViewController, UITableViewDataSource, UITableViewDe
             nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
                 jikanLabelArray = saveDate.object(forKey: "time") as! [String]
                 contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
-            
-            
         }
-        
-        nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
-        jikanLabelArray = saveDate.object(forKey: "time") as! [String]
-        contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
     
         nichijiLabelArray.append(nichijiText)
         jikanLabelArray.append(jikanText)
