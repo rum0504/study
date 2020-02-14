@@ -46,12 +46,12 @@ class ShowViewController: UIViewController, UITableViewDataSource, UITableViewDe
         //contentTextを取り出す
         contentText = saveDate.object(forKey: "content") as? String
         
-        if saveDate.object(forKey: "hinichi") == nil {
-        }else {
-            nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
-                jikanLabelArray = saveDate.object(forKey: "time") as! [String]
-                contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
-        }
+        //if saveDate.object(forKey: "hinichi") == nil {
+      //  }else {
+           // nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
+           // jikanLabelArray = saveDate.object(forKey: "time") as! [String]
+           // contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
+       // }
     
         nichijiLabelArray.append(nichijiText)
         jikanLabelArray.append(jikanText)
