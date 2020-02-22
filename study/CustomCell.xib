@@ -31,7 +31,9 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" red="0.84718602895736694" green="0.97045594453811646" blue="0.93707698583602905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             </tableViewCellContentView>
+            <color key="backgroundColor" red="0.84718602895736694" green="0.97045594453811646" blue="0.93707698583602905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="jikanLabel" destination="0Bi-yf-gbc" id="KmF-dS-5a0"/>

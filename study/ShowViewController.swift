@@ -46,21 +46,21 @@ class ShowViewController: UIViewController, UITableViewDataSource, UITableViewDe
         //contentTextを取り出す
         contentText = saveDate.object(forKey: "content") as? String
         
-        //if saveDate.object(forKey: "hinichi") == nil {
-      //  }else {
-           // nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
-           // jikanLabelArray = saveDate.object(forKey: "time") as! [String]
-           // contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
-       // }
+        if saveDate.object(forKey: "hinichi") == nil {
+        }else {
+            nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
+            jikanLabelArray = saveDate.object(forKey: "time") as! [String]
+            contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
+        }
     
-        nichijiLabelArray.append(nichijiText)
-        jikanLabelArray.append(jikanText)
-        contentTextViewArray.append(contentText)
-        
-        saveDate.set(nichijiLabelArray, forKey: "hinichi")
-        saveDate.set(jikanLabelArray, forKey: "time")
-        saveDate.set(contentTextViewArray, forKey: "contens")
-        
+//        nichijiLabelArray.append(nichijiText)
+//        jikanLabelArray.append(jikanText)
+//        contentTextViewArray.append(contentText)
+//
+//        saveDate.set(nichijiLabelArray, forKey: "hinichi")
+//        saveDate.set(jikanLabelArray, forKey: "time")
+//        saveDate.set(contentTextViewArray, forKey: "contens")
+//
         print(nichijiLabelArray,jikanLabelArray)
         
         
@@ -93,6 +93,19 @@ class ShowViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         //別の画面に遷移
         performSegue(withIdentifier: "toComment", sender: indexPath.row)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toComment" {
+            let indexPath = sender as! Int
+            let vc = segue.destination as? CommentViewController
+            vc?.titleText = nichijiLabelArray[indexPath]
+            vc?.titleText2 = jikanLabelArray[indexPath]
+            vc?.contentText = contentTextViewArray[indexPath]
+            
+            
+        }
+        
     }
     
 

@@ -13,15 +13,21 @@ class CommentViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var nichijiLabel: UITextField!
     @IBOutlet var jikanLabel: UITextField!
     @IBOutlet var contentTextView: UITextView!
+    var titleText = ""
+    var titleText2 = ""
+    var contentText = ""
+    
+    
+    
     
     var saveDate: UserDefaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nichijiLabel.text = saveDate.object(forKey: "title") as? String
-        jikanLabel.text = saveDate.object(forKey: "title2") as? String
-        contentTextView.text = saveDate.object(forKey: "content") as? String
+        nichijiLabel.text = titleText
+        jikanLabel.text = titleText2
+        contentTextView.text = contentText
         nichijiLabel.delegate = self
         jikanLabel.delegate = self
 
@@ -30,11 +36,13 @@ class CommentViewController: UIViewController,UITextFieldDelegate {
     
     @IBAction func saveMemo() {
         
+        //保存
+        save()
         //UserDefaultsに書き込み
-        saveDate.set(nichijiLabel.text, forKey: "title")
-        saveDate.set(jikanLabel.text, forKey: "title2")
-        saveDate.set(contentTextView.text, forKey: "content")
-        
+//        saveDate.set(nichijiLabel.text, forKey: "title")
+//        saveDate.set(jikanLabel.text, forKey: "title2")
+//        saveDate.set(contentTextView.text, forKey: "content")
+//
         //alertを出す
         let alert: UIAlertController = UIAlertController(title: "保存", message: "メモの保存が完了しました。", preferredStyle: .alert)
         
@@ -58,7 +66,26 @@ class CommentViewController: UIViewController,UITextFieldDelegate {
         return true
     }
     
-
+    func save() {
+        let nichiji = nichijiLabel.text
+        let jikan = jikanLabel.text
+        let content = contentTextView.text
+        
+        saveDate.register(defaults: ["hinichi":[]])
+        saveDate.register(defaults: ["time":[]])
+        saveDate.register(defaults: ["contents":[]])
+        var nichijiLabelArray = saveDate.object(forKey: "hinichi") as! [String]
+        var jikanLabelArray = saveDate.object(forKey: "time") as! [String]
+        var contentTextViewArray = saveDate.object(forKey: "contents") as! [String]
+        
+        nichijiLabelArray.append(nichiji!)
+        jikanLabelArray.append(jikan!)
+        contentTextViewArray.append(content!)
+        
+        saveDate.set(nichijiLabelArray, forKey: "hinichi")
+        saveDate.set(jikanLabelArray, forKey: "time")
+        saveDate.set(contentTextViewArray, forKey: "contents")
+    }
     /*
     // MARK: - Navigation
 

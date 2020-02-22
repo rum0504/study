@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		88B58A3623EE9A1B00F09029 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B58A3423EE9A1A00F09029 /* CustomCell.swift */; };
 		88B58A3723EE9A1B00F09029 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B58A3523EE9A1A00F09029 /* CustomCell.xib */; };
+		88B64E2623FEAAB200DAB482 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E2223FEAAB200DAB482 /* icon.png */; };
+		88B64E2B23FEACCC00DAB482 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E2A23FEACCC00DAB482 /* Images.xcassets */; };
+		88B64E2D2400F4AE00DAB482 /* wallpaper②.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E2C2400F4AD00DAB482 /* wallpaper②.png */; };
+		88B64E352401176A00DAB482 /* 壁紙①.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E342401176A00DAB482 /* 壁紙①.png */; };
 		88EA979323C9ADD6004D13F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA979223C9ADD6004D13F5 /* AppDelegate.swift */; };
 		88EA979523C9ADD6004D13F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA979423C9ADD6004D13F5 /* SceneDelegate.swift */; };
 		88EA979723C9ADD6004D13F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA979623C9ADD6004D13F5 /* ViewController.swift */; };
 		88EA979A23C9ADD6004D13F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA979823C9ADD6004D13F5 /* Main.storyboard */; };
-		88EA979C23C9ADD9004D13F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EA979B23C9ADD9004D13F5 /* Assets.xcassets */; };
 		88EA979F23C9ADD9004D13F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EA979D23C9ADD9004D13F5 /* LaunchScreen.storyboard */; };
 		88EA97AA23C9ADD9004D13F5 /* studyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA97A923C9ADD9004D13F5 /* studyTests.swift */; };
 		88EA97B523C9ADD9004D13F5 /* studyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA97B423C9ADD9004D13F5 /* studyUITests.swift */; };
@@ -41,12 +44,15 @@
 /* Begin PBXFileReference section */
 		88B58A3423EE9A1A00F09029 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		88B58A3523EE9A1A00F09029 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		88B64E2223FEAAB200DAB482 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		88B64E2A23FEACCC00DAB482 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88B64E2C2400F4AD00DAB482 /* wallpaper②.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallpaper②.png"; sourceTree = "<group>"; };
+		88B64E342401176A00DAB482 /* 壁紙①.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "壁紙①.png"; path = "../../スクショ/壁紙①.png"; sourceTree = "<group>"; };
 		88EA978F23C9ADD6004D13F5 /* study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EA979223C9ADD6004D13F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EA979423C9ADD6004D13F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		88EA979623C9ADD6004D13F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88EA979923C9ADD6004D13F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88EA979B23C9ADD9004D13F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EA979E23C9ADD9004D13F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EA97A023C9ADD9004D13F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EA97A523C9ADD9004D13F5 /* studyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88B64E2123FEAAB200DAB482 /* study-wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				88B64E2223FEAAB200DAB482 /* icon.png */,
+			);
+			path = "study-wallpaper";
+			sourceTree = "<group>";
+		};
 		88EA978623C9ADD6004D13F5 = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +121,14 @@
 		88EA979123C9ADD6004D13F5 /* study */ = {
 			isa = PBXGroup;
 			children = (
+				88B64E342401176A00DAB482 /* 壁紙①.png */,
+				88B64E2C2400F4AD00DAB482 /* wallpaper②.png */,
+				88B64E2123FEAAB200DAB482 /* study-wallpaper */,
 				88EA979223C9ADD6004D13F5 /* AppDelegate.swift */,
 				88EA979423C9ADD6004D13F5 /* SceneDelegate.swift */,
 				88EA979623C9ADD6004D13F5 /* ViewController.swift */,
 				88EA979823C9ADD6004D13F5 /* Main.storyboard */,
-				88EA979B23C9ADD9004D13F5 /* Assets.xcassets */,
+				88B64E2A23FEACCC00DAB482 /* Images.xcassets */,
 				88EA979D23C9ADD9004D13F5 /* LaunchScreen.storyboard */,
 				88EA97A023C9ADD9004D13F5 /* Info.plist */,
 				88EA97C223C9B3CC004D13F5 /* CommentViewController.swift */,
@@ -245,8 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EA979F23C9ADD9004D13F5 /* LaunchScreen.storyboard in Resources */,
-				88EA979C23C9ADD9004D13F5 /* Assets.xcassets in Resources */,
+				88B64E2B23FEACCC00DAB482 /* Images.xcassets in Resources */,
+				88B64E2623FEAAB200DAB482 /* icon.png in Resources */,
 				88B58A3723EE9A1B00F09029 /* CustomCell.xib in Resources */,
+				88B64E352401176A00DAB482 /* 壁紙①.png in Resources */,
+				88B64E2D2400F4AE00DAB482 /* wallpaper②.png in Resources */,
 				88EA979A23C9ADD6004D13F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
