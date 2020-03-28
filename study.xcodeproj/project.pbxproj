@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		889F29CB241F828E0017C19B /* 壁紙①のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 889F29CA241F828E0017C19B /* 壁紙①のコピー.png */; };
+		88591450242F544A00DFDF8E /* design.png in Resources */ = {isa = PBXBuildFile; fileRef = 8859144B242F544A00DFDF8E /* design.png */; };
+		88591451242F544A00DFDF8E /* iPhone XR-XS Max-11 – 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8859144C242F544A00DFDF8E /* iPhone XR-XS Max-11 – 3.png */; };
+		88591452242F544A00DFDF8E /* 壁紙①.png in Resources */ = {isa = PBXBuildFile; fileRef = 8859144D242F544A00DFDF8E /* 壁紙①.png */; };
+		88591453242F544A00DFDF8E /* kabegami2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8859144E242F544A00DFDF8E /* kabegami2.png */; };
+		88591454242F544A00DFDF8E /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 8859144F242F544A00DFDF8E /* pencil.png */; };
 		88B58A3623EE9A1B00F09029 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B58A3423EE9A1A00F09029 /* CustomCell.swift */; };
 		88B58A3723EE9A1B00F09029 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B58A3523EE9A1A00F09029 /* CustomCell.xib */; };
 		88B64E2623FEAAB200DAB482 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E2223FEAAB200DAB482 /* icon.png */; };
 		88B64E2B23FEACCC00DAB482 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E2A23FEACCC00DAB482 /* Images.xcassets */; };
-		88B64E2D2400F4AE00DAB482 /* wallpaper②.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E2C2400F4AD00DAB482 /* wallpaper②.png */; };
 		88B64E4C24013AC600DAB482 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E3724013AC500DAB482 /* iTunesArtwork@1x.png */; };
 		88B64E4D24013AC600DAB482 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E3924013AC500DAB482 /* Icon-App-76x76@2x.png */; };
 		88B64E4E24013AC600DAB482 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B64E3A24013AC500DAB482 /* Icon-App-29x29@1x.png */; };
@@ -62,12 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		889F29CA241F828E0017C19B /* 壁紙①のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "壁紙①のコピー.png"; sourceTree = "<group>"; };
+		8859144B242F544A00DFDF8E /* design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = design.png; sourceTree = "<group>"; };
+		8859144C242F544A00DFDF8E /* iPhone XR-XS Max-11 – 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone XR-XS Max-11 – 3.png"; sourceTree = "<group>"; };
+		8859144D242F544A00DFDF8E /* 壁紙①.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "壁紙①.png"; sourceTree = "<group>"; };
+		8859144E242F544A00DFDF8E /* kabegami2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kabegami2.png; sourceTree = "<group>"; };
+		8859144F242F544A00DFDF8E /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 		88B58A3423EE9A1A00F09029 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		88B58A3523EE9A1A00F09029 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		88B64E2223FEAAB200DAB482 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		88B64E2A23FEACCC00DAB482 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		88B64E2C2400F4AD00DAB482 /* wallpaper②.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallpaper②.png"; sourceTree = "<group>"; };
 		88B64E3724013AC500DAB482 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
 		88B64E3924013AC500DAB482 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
 		88B64E3A24013AC500DAB482 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
@@ -130,6 +136,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8859144A242F544A00DFDF8E /* new!! */ = {
+			isa = PBXGroup;
+			children = (
+				8859144B242F544A00DFDF8E /* design.png */,
+				8859144C242F544A00DFDF8E /* iPhone XR-XS Max-11 – 3.png */,
+				8859144D242F544A00DFDF8E /* 壁紙①.png */,
+				8859144E242F544A00DFDF8E /* kabegami2.png */,
+				8859144F242F544A00DFDF8E /* pencil.png */,
+			);
+			path = "new!!";
+			sourceTree = "<group>";
+		};
 		88B64E2123FEAAB200DAB482 /* study-wallpaper */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,10 +214,9 @@
 		88EA979123C9ADD6004D13F5 /* study */ = {
 			isa = PBXGroup;
 			children = (
-				889F29CA241F828E0017C19B /* 壁紙①のコピー.png */,
 				88B64E3624013AC500DAB482 /* ios */,
-				88B64E2C2400F4AD00DAB482 /* wallpaper②.png */,
 				88B64E2123FEAAB200DAB482 /* study-wallpaper */,
+				8859144A242F544A00DFDF8E /* new!! */,
 				88EA979223C9ADD6004D13F5 /* AppDelegate.swift */,
 				88EA979423C9ADD6004D13F5 /* SceneDelegate.swift */,
 				88EA979623C9ADD6004D13F5 /* ViewController.swift */,
@@ -337,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88591452242F544A00DFDF8E /* 壁紙①.png in Resources */,
 				88EA979F23C9ADD9004D13F5 /* LaunchScreen.storyboard in Resources */,
 				88B64E2B23FEACCC00DAB482 /* Images.xcassets in Resources */,
 				88B64E4D24013AC600DAB482 /* Icon-App-76x76@2x.png in Resources */,
@@ -345,21 +363,23 @@
 				88B64E4C24013AC600DAB482 /* iTunesArtwork@1x.png in Resources */,
 				88B64E2623FEAAB200DAB482 /* icon.png in Resources */,
 				88B64E5024013AC600DAB482 /* Icon-App-20x20@1x.png in Resources */,
+				88591453242F544A00DFDF8E /* kabegami2.png in Resources */,
 				88B64E4F24013AC600DAB482 /* Icon-App-40x40@1x.png in Resources */,
 				88B64E4E24013AC600DAB482 /* Icon-App-29x29@1x.png in Resources */,
 				88B64E5124013AC600DAB482 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				88591450242F544A00DFDF8E /* design.png in Resources */,
 				88B64E5224013AC600DAB482 /* Icon-App-20x20@3x.png in Resources */,
 				88B64E5D24013AC600DAB482 /* README.md in Resources */,
 				88B64E5824013AC600DAB482 /* Icon-App-60x60@3x.png in Resources */,
 				88B58A3723EE9A1B00F09029 /* CustomCell.xib in Resources */,
 				88B64E5524013AC600DAB482 /* Icon-App-20x20@2x.png in Resources */,
-				88B64E2D2400F4AE00DAB482 /* wallpaper②.png in Resources */,
 				88B64E5A24013AC600DAB482 /* Icon-App-76x76@1x.png in Resources */,
 				88B64E5B24013AC600DAB482 /* Icon-App-40x40@3x.png in Resources */,
 				88B64E5724013AC600DAB482 /* Icon-App-40x40@2x.png in Resources */,
-				889F29CB241F828E0017C19B /* 壁紙①のコピー.png in Resources */,
+				88591454242F544A00DFDF8E /* pencil.png in Resources */,
 				88B64E5C24013AC600DAB482 /* Icon-App-29x29@2x.png in Resources */,
 				88B64E5F24013AC600DAB482 /* iTunesArtwork@3x.png in Resources */,
+				88591451242F544A00DFDF8E /* iPhone XR-XS Max-11 – 3.png in Resources */,
 				88EA979A23C9ADD6004D13F5 /* Main.storyboard in Resources */,
 				88B64E5E24013AC600DAB482 /* iTunesArtwork@2x.png in Resources */,
 				88B64E5324013AC600DAB482 /* ItunesArtwork@2x.png in Resources */,
@@ -566,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 765B978396;
 				INFOPLIST_FILE = study/Info.plist;
@@ -573,8 +594,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lifeistech.study;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeistech.study0328;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -584,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 765B978396;
 				INFOPLIST_FILE = study/Info.plist;
@@ -591,8 +614,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "lychee-0621";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifeistech.study0328;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
